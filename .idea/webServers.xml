@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="9162b7eb-1adb-4a7d-8853-88c6edb9fd74" name="GoDaddy" url="http://icydesign.co.uk/solo">
+        <fileTransfer host="icydesign.co.uk" port="21" rootFolder="/public_html/solo/">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
