@@ -11,7 +11,10 @@
         Black:          #000000
 ===================================== */
 
-/* HTML & Body */
+/* =====================================
+            HTML & Body
+===================================== */
+
 
 html, body {
     height: 100%;
@@ -37,7 +40,9 @@ section {
     overflow: hidden;
 }
 
-/* Preloader */
+/* =====================================
+              Preloader
+===================================== */
 
 #preloader {
     background-color: white;
@@ -60,7 +65,9 @@ section {
     margin-left: -35px;
 }
 
-/* Home */
+/* =====================================
+                Home
+===================================== */
 
 #home {
     background: none;
@@ -124,7 +131,9 @@ section {
     margin: 8px 0 30px 0;
 }
 
-/* Buttons */
+/* =====================================
+              Buttons
+===================================== */
 
 .btn-general {
     font-family: "Raleway", sans-serif;
@@ -162,7 +171,9 @@ section {
     border: 1px solid #212226;
 }
 
-/* Arrow Down */
+/* =====================================
+            Arrow Down
+===================================== */
 
 #arrow-down {
     position: absolute;
@@ -182,7 +193,9 @@ section {
     color: #F4C613;
 }
 
-/* Content Boxes */
+/* =====================================
+            Content Boxes
+===================================== */
 
 .content-box-lg {
     padding: 120px 0;
@@ -192,7 +205,9 @@ section {
     padding: 100px 0;
 }
 
-/* Vertical / Horizontal Headings */
+/* =====================================
+    Vertical / Horizontal Headings
+===================================== */
 
 .vertical-heading h5 {
     color: #F4C613;
@@ -210,7 +225,6 @@ section {
 
 .vertical-heading h2 {
     margin: 0 0 0 35px;
-
 }
 
 .horizontal-heading h2,
@@ -236,7 +250,9 @@ section {
     margin: 0;
 }
 
-/* About Part 1 */
+/* =====================================
+            About Part 1
+===================================== */
 
 #about-right p:first-child {
     margin-bottom: 30px;
@@ -250,7 +266,9 @@ section {
     margin: 0 auto;
 }
 
-/* About Part 2 */
+/* =====================================
+            About Part 2
+===================================== */
 
 #about-02 {
     background-color: #F4F4F4;
@@ -312,7 +330,9 @@ section {
     transition: all 400ms ease-in-out;
 }
 
-/* Team */
+/* =====================================
+                Team
+===================================== */
 
 #team-left .vertical-heading {
     min-height: 160px;
@@ -356,7 +376,9 @@ section {
     color: #FFFFFF;
 }
 
-/* Social Icons */
+/* =====================================
+            Social Icons
+===================================== */
 
 ul.social-list {
     padding: 0;
@@ -395,7 +417,9 @@ ul.social-list li:nth-child(3) a:hover {
     border: transparent;
 }
 
-/* Slider Buttons */
+/* =====================================
+            Slider Buttons
+===================================== */
 
 .owl-carousel .owl-nav button.owl-next, .owl-carousel .owl-nav button.owl-prev {
     color: #212226;
@@ -414,7 +438,9 @@ ul.social-list li:nth-child(3) a:hover {
     outline: none;
 }
 
-/* Skills */
+/* =====================================
+                Skills
+===================================== */
 
 .skill {
     margin-bottom: 20px;
@@ -459,7 +485,9 @@ ul.social-list li:nth-child(3) a:hover {
     left: 23%;
 }
 
-/* Statement */
+/* =====================================
+            Statement
+===================================== */
 
 #statement {
     background: url("../img/tech/tech-quote.jpg") no-repeat center fixed;
@@ -483,7 +511,9 @@ ul.social-list li:nth-child(3) a:hover {
     margin-top: 8px;
 }
 
-/* Services 1 */
+/* =====================================
+            Services Part 1
+===================================== */
 
 #service-1 img {
     margin: 60px 0;
@@ -526,7 +556,9 @@ ul.social-list li:nth-child(3) a:hover {
     line-height: normal;
 }
 
-/* Services 2 (Responsive Tabs) */
+/* =====================================
+    Services Part 2 (Responsive Tabs)
+===================================== */
 
 #service-2 {
     background: #F4F4F4;
@@ -593,7 +625,9 @@ ul.social-list li:nth-child(3) a:hover {
     margin-bottom: 30px;
 }
 
-/* Portfolio */
+/* =====================================
+            Portfolio
+===================================== */
 
 #portfolio .vertical-heading {
     margin-bottom: 50px;
@@ -730,6 +764,48 @@ ul.social-list li:nth-child(3) a:hover {
 .portfolio-item:hover .portfolio-item-overlay {
     opacity: 1;
 }
+
+/* =====================================
+            Testimonials
+===================================== */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
