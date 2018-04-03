@@ -46,12 +46,10 @@ $(function () {
 /* Portfolio */
 
 $(window).on('load', function () {
-    $("#isotope-container").isotope({
-
-    });
+    $("#isotope-container").isotope({});
 
     // filter items on button click
-    $("#isotope-filters").on( 'click', 'button', function() {
+    $("#isotope-filters").on('click', 'button', function () {
         // Get filter value
         let filterValue = $(this).attr('data-filter');
 
@@ -72,8 +70,8 @@ $(function () {
     $('#portfolio-wrapper').magnificPopup({
         delegate: 'a', // child items selector, by clicking on it popup will open
         type: 'image',
-        gallery:{
-            enabled:true
+        gallery: {
+            enabled: true
         }
     });
 });
