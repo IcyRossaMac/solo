@@ -1181,9 +1181,23 @@ ul.office-details li i {
     height: 600px;
 }
 
+/* =====================================
+                Footer
+===================================== */
 
+footer {
+    background: #212226;
+    padding: 30px;
+}
 
+footer p {
+    color: #FFFFFF;
+    line-height: 20px;
+}
 
+footer p span {
+    color: #F4C613;
+}
 
 
 
