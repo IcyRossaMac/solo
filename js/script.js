@@ -115,6 +115,32 @@ $(function () {
     });
 });
 
+/* Google Map */
+
+$(window).on('load', function () {
+    var addressString = "230 Broadway, New York, NY, USA";
+    var myLatLng = {lat: 40.712742, lng: -74.005969};
+
+    var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 15,
+        center: myLatLng
+    });
+
+    var marker = new google.maps.Marker({
+        position: myLatLng,
+        map: map,
+        title: 'Click To See Address'
+    });
+
+    var infowindow = new google.maps.InfoWindow({
+        content: addressString
+    });
+
+    marker.addListener('click', function () {
+        infowindow.open(map, marker);
+    });
+});
+
 
 
 
