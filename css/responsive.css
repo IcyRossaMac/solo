@@ -24,6 +24,11 @@
         font-size: 29px;
     }
 
+    /* Team */
+    .team-member-info {
+        padding: 60px 0;
+    }
+
     /* Services 2 */
     #services-tabs .tab-bg {
         padding: 16px 30px;
@@ -66,6 +71,30 @@
     /* Statement */
     #tech-statement h3 {
         font-size: 20px;
+        line-height: 30px;
+    }
+
+    /* Team */
+    .team-member-info {
+        padding: 40px 0;
+    }
+
+    .team-member-info h6 {
+        font-size: 14px;
+    }
+
+    .team-member-info p {
+        font-size: 10px;
+    }
+
+    /* Social Icon List */
+    ul.social-list {
+        margin-top: 0;
+    }
+
+    ul.social-list li a {
+        width: 30px;
+        height: 30px;
         line-height: 30px;
     }
 
