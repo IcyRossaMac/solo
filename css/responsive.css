@@ -102,6 +102,11 @@
         font-size: 35px;
     }
 
+    /* Stats */
+    .stats-item p {
+        line-height: 18px;
+    }
+
     /* Blog Post */
     .blog-post .post-meta p {
         line-height: 14px;
