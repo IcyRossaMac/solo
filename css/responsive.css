@@ -49,7 +49,7 @@
     }
 
     /* Home */
-    #home-heading-1 {
+    #home-heading h1 {
         font-size: 41px;
     }
 
@@ -58,7 +58,6 @@
     }
 
     /* Generic */
-
     .vertical-heading h2 {
         font-size: 29px;
     }
@@ -146,4 +145,122 @@
 
 @media (max-width: 767px) {
 
+    /* Home */
+    #home-heading h1 {
+        font-size: 22px;
+    }
+
+    #home-text p {
+        font-size: 13px;
+        line-height: 18px;
+        margin: 8px 2px 30px 2px;
+    }
+
+    /* Generic */
+    .btn-general {
+        padding: 8px 25px;
+        font-size: 10px;
+    }
+
+    .content-box-lg {
+        padding: 90px 0;
+    }
+
+    .content-box-md {
+        padding: 80px 0;
+    }
+
+    .vertical-heading {
+        text-align: center;
+    }
+
+    .vertical-heading h5 {
+        -webkit-transform: rotate(0deg);
+        transform: rotate(0deg);
+        display: block;
+        position: static;
+        margin-bottom: 15px;
+    }
+
+    .vertical-heading h2 {
+        font-size: 29px;
+        line-height: normal;
+        margin: 0;
+    }
+
+    /* About 1 */
+    #about-left {
+        margin-bottom: 50px;
+    }
+
+    #about-right {
+        text-align: center;
+    }
+
+    /* About 2 */
+    .about-item {
+        padding: 55px 30px;
+        margin-bottom: 35px;
+    }
+
+    .about-item i {
+        font-size: 30px;
+    }
+
+    .about-item h3 {
+        font-size: 18px;
+    }
+
+    /* Team */
+    #team-left .vertical-heading {
+        min-height: 130px;
+    }
+
+    .skill h4 {
+        font-size: 14px;
+        line-height: 35px;
+    }
+
+    /* Statement */
+    #tech-statement h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

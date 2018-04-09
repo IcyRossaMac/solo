@@ -19,11 +19,11 @@ $(function () {
         navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
         responsive: {
             // breakpoint from 0 up
-            0 : {
-                items : 1
+            0: {
+                items: 1
             },
             // breakpoint from 480 up
-            480 : {
+            480: {
                 items: 2
             }
         }
