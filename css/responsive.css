@@ -1,0 +1,30 @@
+/* =====================================
+        Bootstrap Media Queries
+===================================== */
+
+/* Large Devices (Desktops & Laptops */
+
+@media (min-width: 1200px) and (max-width: 1299px) {
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0 20px;
+    }
+}
+
+/* Medium Devices (Landscape Tablets & Medium Desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+}
+
+/* Small Devices (Portrait Tablets & Small Desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/* Extra Small Devices (Landscape/Portrait tablets) */
+
+@media (max-width: 767px) {
+
+}
