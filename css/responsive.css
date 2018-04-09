@@ -14,7 +14,25 @@
 /* Medium Devices (Landscape Tablets & Medium Desktops */
 
 @media (min-width: 992px) and (max-width: 1199px) {
+    /* Navigation */
+    .site-nav-wrapper {
+        padding: 0;
+    }
 
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 29px;
+    }
+
+    /* Services 2 */
+    #services-tabs .tab-bg {
+        padding: 16px 30px;
+        min-height: 300px;
+    }
+
+    .service-tab p {
+        line-height: 20px;
+    }
 }
 
 /* Small Devices (Portrait Tablets & Small Desktops */
