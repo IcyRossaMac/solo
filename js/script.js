@@ -121,7 +121,20 @@ $(function () {
         autoplayHoverPause: true,
         nav: true,
         dots: false,
-        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>']
+        navText: ['<i class="fa fa-angle-left"></i>', '<i class="fa fa-angle-right"></i>'],
+        responsive: {
+            // breakpoint from 0 up
+            0: {
+                items: 2
+            },
+            // breakpoint from 480 up
+            480: {
+                items: 3
+            },
+            768: {
+                items: 6
+            }
+        }
     });
 });
 

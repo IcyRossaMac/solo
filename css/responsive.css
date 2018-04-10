@@ -408,6 +408,62 @@
     }
 }
 
+/* Extra Small Devices (Portrait Phones & Smaller Devices) */
+
+@media (max-width: 480px) {
+
+    /* Home */
+    #home-heading h1 {
+        font-size: 18px;
+    }
+
+    #home-text p {
+        font-size: 11px;
+        line-height: 16px;
+        margin: 8px 10px 25px 10px;
+    }
+
+    /* Generic */
+    .vertical-heading h2 {
+        font-size: 22px;
+    }
+
+    /* Portfolio */
+    #isotope-filters{
+        text-align: center;
+    }
+
+    #isotope-filters button {
+        font-size: 10px;
+        padding-right: 14px;
+    }
+
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .testimonial .stars {
+        font-size: 13px;
+    }
+}
+
+/* Extra Small Devices (iPhone 5 or smaller) */
+
+@media (max-width: 320px) {
+
+    /* Testimonials */
+    .testimonial h3 {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+    .testimonial .stars {
+        font-size: 10px;
+    }
+}
+
 
 
 
