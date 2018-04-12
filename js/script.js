@@ -213,3 +213,10 @@ $(function () {
     })
 });
 
+/* Animation */
+
+// Animate on scroll
+$(function () {
+    new WOW().init();
+});
+
