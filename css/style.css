@@ -55,13 +55,13 @@ section {
 
 #status {
     background: url("../img/preloader/preloader.gif") no-repeat;
-    width: 70px;
-    height: 70px;
+    width: 128px;
+    height: 128px;
     position: absolute;
     left: 50%;
     top: 50%;
-    margin-top: -35px;
-    margin-left: -35px;
+    margin-top: -64px;
+    margin-left: -32px;
 }
 
 /* =====================================
@@ -1210,7 +1210,7 @@ footer p span {
 }
 
 /* =====================================
-                Navigation
+              Navigation
 ===================================== */
 
 .navbar {
@@ -1266,5 +1266,42 @@ ul.navbar-nav > li > a:focus {
 .white-nav-top ul.navbar-nav > li.active > a {
     color: #F4C613;
     font-weight: 500;
+}
+
+/* =====================================
+              Animation
+===================================== */
+#home-heading-1,
+#home-heading-2,
+#home-text,
+#home-btn,
+#arrow-down i {
+    -webkit-animation-duration: 1.5s;
+    animation-duration: 1.5s;
+}
+
+#home-heading-1 {
+    -webkit-animation-delay: 1s;
+    animation-delay: 1s;
+}
+
+#home-heading-2 {
+    -webkit-animation-delay: 1.5s;
+    animation-delay: 1.5s;
+}
+
+#home-text {
+    -webkit-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+#home-btn {
+    -webkit-animation-delay: 2.5s;
+    animation-delay: 2.5s;
+}
+
+#arrow-down i {
+    -webkit-animation-delay: 3s;
+    animation-delay: 3s;
 }
 
