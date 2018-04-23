@@ -40,8 +40,8 @@
     font-weight: 400;
     cursor: pointer;
     position: absolute;
-    top: -8px;
-    right: 13px;
+    top: -9px;
+    right: 12px;
     -webkit-transition: 0.3s;
     transition: 0.3s;
 }
